@@ -1,0 +1,32 @@
+name: empire_prof
+channels:
+  - conda-forge
+  - defaults
+  - gurobi
+  - bioconda
+dependencies:
+  - cloudpickle>=1.0.0
+  - openpyxl>=3.0.0
+  - pandas>=1.2
+  - pyomo>=6.0
+  - python>=3.7
+  - pyyaml>=5.1
+  - glpk>=4.65
+  - gurobi 
+  - python==3.11
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - snakemake
+
+  # Docs
+  - furo 
+  - sphinx
+
+  # Dev tools
+  - black
+  - pytest
+  
+  - pip
+  - pip:
+      - -e ../OpenEmpire/ # Install empire as pip package in editable mode

@@ -5,7 +5,7 @@ import pandas as pd
 from pathlib import Path
 
 EMPIRE_PATH = Path("../OpenEMPIRE")
-RESULTS_PATH = EMPIRE_PATH / "Results/genesis_ramp/1_node_baseload"
+RESULTS_PATH = EMPIRE_PATH / "Results/genesis/1_node_baseload"
 RESULTS_WIND_PATH = RESULTS_PATH / "wind"
 
 # Define parameters

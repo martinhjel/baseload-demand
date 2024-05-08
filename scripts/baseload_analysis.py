@@ -38,7 +38,7 @@ scale = float(args.load_scaling)
 shift = int(args.load_shifting)
 ramp_rate = float(args.ramp_rate)
 
-run_path = Path("../OpenEMPIRE") / "Results/genesis_ramp/1_node_baseload/"
+run_path = Path("../OpenEMPIRE") / "Results/genesis/1_node_baseload/"
 run_path = run_path / f"ncc_{ncc}_co2_{co2}_scale_{scale}_shift{shift}_ramp{ramp_rate}"
 
 run_config = setup_run_paths(
